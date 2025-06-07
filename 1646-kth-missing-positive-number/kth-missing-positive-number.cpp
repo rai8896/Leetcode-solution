@@ -4,7 +4,7 @@ public:
         int start=0;
         int end=arr.size()-1;
         int mid;
-        int ans=end+1;
+        int ans=end+1;// sorted  array rhe to 
         while(start<=end)
         {
             mid=start+(end-start)/2;
